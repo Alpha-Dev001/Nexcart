@@ -9,5 +9,8 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
+      - key: PORT
+        value: 10000
       - key: MONGO_URI
+        value: mongodb+srv://alphamnzr_db_user:HdlbRzXQwaAsUmz4@cluster0.3swyvap.mongodb.net/store_app_db?appName=Cluster0
         sync: false
