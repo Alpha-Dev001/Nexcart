@@ -71,7 +71,7 @@ function Footer() {
                         <Link to="/create" className="text-gray-400 hover:text-white transition-colors duration-300 font-medium">Create Product</Link>
                     </div>
                     <div className="text-gray-500 text-sm">
-                        &copy; 2024 Nexcart. All rights reserved.
+                        &copy; 2026 Nexcart. All rights reserved.
                     </div>
                 </div>
             </div>

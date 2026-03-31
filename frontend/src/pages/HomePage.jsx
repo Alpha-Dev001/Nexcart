@@ -59,7 +59,7 @@ function HomePage() {
         <div className='relative z-10 max-w-7xl mx-auto text-center'>
           <div className="mb-8">
             <span className="inline-block px-4 py-2 bg-gray-900 border border-gray-800 rounded-full text-sm font-medium text-gray-300 mb-6">
-              PREMIUM COLLECTION 2024
+              PREMIUM COLLECTION 2026
             </span>
           </div>
           <h1 className='text-5xl md:text-7xl font-bold mb-6 tracking-tight'>
