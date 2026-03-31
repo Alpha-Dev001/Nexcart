@@ -1,0 +1,13 @@
+services:
+  # Production Web Service
+  - type: web
+    name: nexcart
+    env: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGO_URI
+        sync: false

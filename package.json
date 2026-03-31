@@ -1,0 +1,43 @@
+{
+  "name": "nexcart",
+  "version": "1.0.0",
+  "description": "Modern e-commerce platform with professional black, white, and gray design",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "nodemon backend/server.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "npm run install-deps && cd frontend && npm run build",
+    "install-deps": "npm install && cd frontend && npm install",
+    "postinstall": "cd frontend && npm install",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  },
+  "keywords": [
+    "ecommerce",
+    "mern",
+    "react",
+    "nodejs",
+    "mongodb",
+    "shopping",
+    "cart"
+  ],
+  "author": "Nexcart Team",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^3.34.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "concurrently": "^8.2.2",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "framer-motion": "^12.38.0",
+    "mongoose": "^9.3.3",
+    "nodemon": "^3.1.14"
+  }
+}
